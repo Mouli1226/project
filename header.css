@@ -1,0 +1,63 @@
+header{
+    
+    display: grid; 
+    grid-template-columns:30% 70%
+        background-color:white;
+        display: grid;
+        /* grid-template-columns:30% 70%; */
+
+    }
+    nav a{
+        font-weight: bold;
+        font-style: italic;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-decoration-line: none;
+        /* padding-top: 15px; */
+    }
+    .login-button{
+
+    }
+    label{
+        font-weight: bold;
+        padding: 10px;
+        color: green;
+    }
+     .one{
+        height: 20px;
+        width: 20px;
+      }
+      .pic2{
+        position: absolute;
+        right:208px ;
+        margin-top: -30px;
+        cursor: pointer;
+      }
+      header{
+        display: flex;
+      } 
+      nav{
+        margin-top: 40px;
+      }
+    /* .boby{
+      background-color: antiquewhite;
+      margin-left: 10px;
+    } */
+     .toy{
+      background-color: grey;
+      height: 50px;
+      /* margin: 25px; */
+      padding: 25px;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 20px;
+      color: blanchedalmond;
+
+    }
+    /* .mom{
+      border: 1px solid blanchedalmond;
+      /* display: flex; */
+      margin: 50px;
+      /* gap: 25px; */
+    } */
