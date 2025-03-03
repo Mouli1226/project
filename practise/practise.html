@@ -3,19 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deals of the Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card h2 {
+            color: #158467;
+        }
+        .price {
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: gray;
+            font-size: 16px;
+        }
+        .timer {
+            display: flex;
+            gap: 5px;
+            margin: 10px 0;
+        }
+        .timer div {
+            background: #158467;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .shop-now {
+            display: inline-block;
+            background: #158467;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" placeholder="Search..." class="search-input">
-<style>
-  .search-input {
-    background-image: url('search-icon.png'); /* Replace with your icon */
-    background-position: 10px center;
-    background-repeat: no-repeat;
-    background-size: 16px;
-    padding-left: 35px; /* Space for icon */
-  }
-</style>
-
+    <div class="container">
+        <div class="card">
+            <h2>Deals of the Day</h2>
+            <p>Summer Collection New Modern Design</p>
+            <span class="price">$139.00</span> <span class="old-price">$160.99</span>
+            <p>Hurry Up! Offer Ends In:</p>
+            <div class="timer">
+                <div>02 Days</div>
+                <div>22 Hours</div>
+                <div>57 Mins</div>
+                <div>28 Sec</div>
+            </div>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+        <div class="card">
+            <h2>Women Clothing</h2>
+            <p>Try Something new on vacation</p>
+            <span class="price">$178.00</span> <span class="old-price">$256.99</span>
+            <p>Hurry Up! Offer Ends In:</p>
+            <div class="timer">
+                <div>02 Days</div>
+                <div>22 Hours</div>
+                <div>57 Mins</div>
+                <div>28 Sec</div>
+            </div>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+    </div>
 </body>
 </html>

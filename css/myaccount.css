@@ -1,11 +1,10 @@
 header{
     
     display: grid; 
-    grid-template-columns:30% 70%
+    grid-template-columns:30% 70%;
         background-color:white;
         display: grid;
         /* grid-template-columns:30% 70%; */
-
     }
     nav a{
         font-weight: bold;
@@ -25,13 +24,14 @@ header{
         color: green;
     }
      .one{
-        height: 20px;
+        height: 15px;
         width: 20px;
+
       }
       .pic2{
         position: absolute;
-        right:208px ;
-        margin-top: -30px;
+        right:200px ;
+        margin-top: -25px;
         cursor: pointer;
       }
       header{
@@ -60,4 +60,16 @@ header{
       /* display: flex; */
       margin: 50px;
       /* gap: 25px; */
-    } */
+    */
+    .mouli{
+      margin-top: 20px;
+    }
+    .man{
+        border: 2px solid whitesmoke;
+        padding: 30px;
+        border: none;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        background-color: aquamarine;
+        height: 20px;
+        }
